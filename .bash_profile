@@ -22,11 +22,37 @@ alias grep='grep --color=auto'
 alias egrep='egrep --color=auto'
 alias fgrep='fgrep --color=auto'
 
-alias vi='vim'
-alias rm='rm -iv'
-alias cp='cp -iv'
-alias mkdir='mkdir -pv'
+# Start calculator with math support
+alias bc='bc -l'
+
+# Colorize diff output
+alias diff='colordiff'
+
+# Command short cuts to save time
+alias h='history'
+alias j='jobs -l'
 alias hs='history|grep -i '
+
+# Set vim as default
+alias vi='vim'
+alias svi='sudo vim'
+alias edit='vim'
+
+# Control output of networking tool
+alias ping='ping -c 5'
+alias fastping='ping -c 100 -s.2'
+alias ports='netstat -tulanp'
+
+# Add safety nets
+alias rm='rm -iv'
+alias mv='mv -iv'
+alias cp='cp -iv'
+alias ln='ln -iv'
+alias mkdir='mkdir -pv'
+
+# Etc
 alias tgz='tar -xvfz'
 alias ff='find . -type f -iname'
-
+alias wget='wget -c'
+alias df='df -H'
+alias du='du -ch'
