@@ -1,7 +1,7 @@
 # if user is not root, pass all commands via sudo #
 if [ $UID -ne 0 ]; then
     alias reboot='sudo reboot'
-    alias update='sudo apt-get ugrade'
+    alias update='sudo apt-get upgrade'
 fi
 
 # Control ls command output
