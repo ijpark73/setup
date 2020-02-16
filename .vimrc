@@ -3,6 +3,7 @@ call vundle#begin()
 Plugin 'VundleVim/Vundle.vim'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'townk/vim-autoclose'
+Plugin 'jiangmiao/auto-pairs'
 call vundle#end()
 
 set rnu                             " line 표시
