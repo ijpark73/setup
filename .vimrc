@@ -4,6 +4,8 @@ Plugin 'VundleVim/Vundle.vim'
 Plugin 'junegunn/seoul256.vim'
 Plugin 'townk/vim-autoclose'
 Plugin 'jiangmiao/auto-pairs'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
 call vundle#end()
 
 set rnu                             " line 표시
